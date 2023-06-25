@@ -1,0 +1,5 @@
+---
+- name: First playbook
+  hosts: all
+  roles:
+  - rsync
