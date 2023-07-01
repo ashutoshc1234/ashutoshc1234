@@ -1,0 +1,7 @@
+---
+# tasks file for facts
+- name: Gather the information about the target host
+  ansible.builtin.gather_facts:
+  register: output
+- debug:
+    msg: "{{output}}"
