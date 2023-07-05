@@ -1,0 +1,6 @@
+---
+- name: Gather the information about the target host
+  ansible.builtin.gather_facts:
+  shell: echo "Start the upgrade process of kernal as it is outdated"
+  when:  ansible_facts['ansible_all_ipv4_addresses'] | int >= 8
+
