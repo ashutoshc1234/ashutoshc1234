@@ -1,4 +1,4 @@
 ---
-ansible_user: ashutmch
-ansible_password: Nora@786 
-ansible_become_password: Nora@786
+ansible_user: aasdfadsf
+ansible_password: asdf
+ansible_become_password: asdfsdf
