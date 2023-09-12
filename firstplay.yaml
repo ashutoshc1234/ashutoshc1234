@@ -1,5 +1,5 @@
 ---
 - name: First playbook
-  hosts: ubuntu 
+  hosts: all
   roles:
   - ubuntu 
