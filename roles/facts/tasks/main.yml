@@ -1,7 +1,7 @@
 ---
-# tasks file for facts
-- name: Gather the information about the target host
-  ansible.builtin.gather_facts:
+- name: Information about the IOS router 
+  cisco.ios.ios_facts:
+    gather_subset: all
   register: output
 - debug:
-    msg: "{{output}}"
+    msg: "{{output.ansible_facts.ansible_net_version}}" 
