@@ -1,2 +1,0 @@
-- name: collect default set of facts
-  junipernetworks.junos.junos_facts:
