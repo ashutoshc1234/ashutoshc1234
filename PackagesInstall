@@ -7,7 +7,12 @@ dnf install ansible
 yum install ansible
 •	For Debian:
 apt install ansible
-Ansible Core
+• For Ubuntu
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+• Ansible Core
 pip install ansible-core
 Uninstall Ansible
 •	For Uninstalling Ansible:
