@@ -1,5 +1,9 @@
+•	For Centos: 
 yum install epel-release
 yum install ansible
+•	For Fedora:
 dnf install ansible
+•	For RHEL:
 yum install ansible
+•	For Debian:
 apt install ansible
