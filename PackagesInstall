@@ -1,0 +1,5 @@
+yum install epel-release
+yum install ansible
+dnf install ansible
+yum install ansible
+apt install ansible
