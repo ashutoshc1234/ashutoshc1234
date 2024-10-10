@@ -7,3 +7,12 @@ dnf install ansible
 yum install ansible
 •	For Debian:
 apt install ansible
+Ansible Core
+pip install ansible-core
+Uninstall Ansible
+•	For Uninstalling Ansible:
+pip uninstall ansible
+•	For uninstalling Ansible-base:
+pip uninstall ansible-base
+•	For uninstalling Ansible-core
+pip uninstall ansible-core
