@@ -1,0 +1,6 @@
+# First ever Code of AWS using Ansible
+- name: EC2 Instance Creation
+  hosts: localhost
+  roles:
+  - awsec2 
+
