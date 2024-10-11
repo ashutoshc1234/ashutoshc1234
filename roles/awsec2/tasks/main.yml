@@ -10,6 +10,4 @@
     count: 1
     vpc_subnet_id: subnet-01df03e7847aebce0
     assign_public_ip: yes
-    aws_access_key: "{{ aws_access_key }}"
-    aws_secret_key: "{{ aws_secret_key }}"
 
