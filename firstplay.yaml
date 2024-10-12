@@ -1,5 +1,6 @@
 ---
-- name: First playbook
+- name: test
+  connection: local
   hosts: all
   roles:
-  - whenint 
+    - awsec2 
