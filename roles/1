@@ -1,3 +1,0 @@
----
-- name: Rsync roles
-  shell: uptime

@@ -63,13 +63,13 @@
         group_name: outboundrule
         group_desc: any any instance
 - ec2_instance:
-  name: FullflowVPC
-  key_name: VPCE2E
-  vpc_subnet_id: "{{variablesub.subnet.id}}"
-  instance_type: t2.micro
-  security_group: "{{varnsg.group_id}}"
-  network:
-    assign_public_ip: true
+    name: FullflowVPC
+    key_name: VPCE2E
+    vpc_subnet_id: "{{variablesub.subnet.id}}"
+    instance_type: t2.micro
+    security_group: "{{varnsg.group_id}}"
+    network:
+      assign_public_ip: true
     image_id: ami-0a606d8395a538502
     region: us-east-2
     aws_access_key: "{{ aws_access_key }}"
