@@ -1,7 +1,7 @@
 ---
 # tasks file for chapter8createdirectory
 - name: Test website
-  win feature:
+  win_feature:
     name: "Web-Server"
     state: present
     restart: yes

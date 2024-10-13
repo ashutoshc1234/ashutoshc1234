@@ -1,5 +1,16 @@
 # First ever Code of AWS using Ansible
 - name: EC2 Instance Creation
   hosts: localhost
+  ignore_errors: yes
   roles:
-  - NewVPC1
+  - chapter8createapache
+  - chapter8copywebsite
+  - chapter8createdirectory
+  - chapter8windowsfeature
+  - chapter8winIIS
+  - chapter8nginx
+  - chapter8installnginx
+  - chapter8php
+  - chapter8installgit
+  - chapter8gitclone
+  - chapter8multypackages
