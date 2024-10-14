@@ -3,14 +3,5 @@
   hosts: localhost
   ignore_errors: yes
   roles:
-  - chapter8createapache
-  - chapter8copywebsite
-  - chapter8createdirectory
-  - chapter8windowsfeature
-  - chapter8winIIS
-  - chapter8nginx
-  - chapter8installnginx
-  - chapter8php
-  - chapter8installgit
-  - chapter8gitclone
-  - chapter8multypackages
+  - dnfchapter9 
+  - chapter9installspecificpack 
