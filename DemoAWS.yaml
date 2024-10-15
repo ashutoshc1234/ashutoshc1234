@@ -3,5 +3,14 @@
   hosts: localhost
   ignore_errors: yes
   roles:
-  - dnfchapter9 
-  - chapter9installspecificpack 
+  - chapter9backup
+  - chapter9rsync
+  - chapter9rsyncpull
+  - chapter9db
+  - multiplepackagechapter9
+  - chapter9installspecificpack
+  - chapter9installspecificpack1
+  - dnfchapter9
+  - aptchapter9
+  - upgradechapter9
+
