@@ -1,7 +1,7 @@
 ---
-# tasks file for chap10withmulticondition
-- name: Upgrade the OS It is less than 6
+- name: Upgrade the OS IF it is less than 6
   ansible.builtin.dnf:
     name: '*'
     state: latest
-  when: (ansible_facts ['distribution'] == "CentOS" and ansible_facts ['distribution_major_version'] == "6")
+  become: yes
+  when: (ansible_facts['distribution'] == "CentOS" and ansible_facts['distribution_major_version'] == "6") 
