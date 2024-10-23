@@ -3,5 +3,5 @@
   hosts: localhost
   ignore_errors: yes
   roles:
-  - block 
+  - chap10ignoreerror 
 
