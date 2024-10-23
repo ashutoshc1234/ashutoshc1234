@@ -1,7 +1,7 @@
 # First ever Code of AWS using Ansible
-- name: EC2 Instance Creation
-  hosts: localhost
+- name: EC2 Instace Creation
+  hosts: all 
   ignore_errors: yes
   roles:
-  - chap10ignoreerror 
+  - chapt10jinja 
 
