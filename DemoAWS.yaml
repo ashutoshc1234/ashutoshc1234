@@ -3,5 +3,21 @@
   hosts: all 
   ignore_errors: yes
   roles:
-  - chapt10jinja 
+  - chap11withitems 
+  - ciscochap11prompt
+  - ciscocopychap11
+  - ciscochapt11iosconfig
+  - ciscochapt11list
+  - ciscochap11bgp
+  - chap11withitems
+  - ciscochap11diff
+  - ciscochap11acl
+  - ciscochap11iosfacts
+  - ciscochap11iosupdate
+  - junoscommandchap11
+  - junoshostnamechap11
+  - junosconfigchap11
+  - junosfactschap1111
+  - cumuluschapt11
+  - cumuluschapt11show
 
