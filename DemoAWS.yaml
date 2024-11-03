@@ -2,22 +2,14 @@
 - name: EC2 Instace Creation
   hosts: all 
   ignore_errors: yes
+  gather_facts: no
   roles:
-  - chap11withitems 
-  - ciscochap11prompt
-  - ciscocopychap11
-  - ciscochapt11iosconfig
-  - ciscochapt11list
-  - ciscochap11bgp
-  - chap11withitems
-  - ciscochap11diff
-  - ciscochap11acl
-  - ciscochap11iosfacts
-  - ciscochap11iosupdate
-  - junoscommandchap11
-  - junoshostnamechap11
-  - junosconfigchap11
-  - junosfactschap1111
-  - cumuluschapt11
-  - cumuluschapt11show
+  - chap13kubepackage
+  - chap13kubepackage1
+  - chap13kubepackage2start
+  - chap13kubepackagelist
+  - chap13kubepackageiptables
+  - chap13masternode
+  - chap13installdocker
+  - chap13infoimage
 
