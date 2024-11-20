@@ -1,8 +1,0 @@
----
-# tasks file for demorole
-- name: Run first command to check the uptime of localhost
-  ansible.builtin.shell: uptime
-  register: variabledemo
-- debug:
-    msg: "{{variabledemo}}"
-
